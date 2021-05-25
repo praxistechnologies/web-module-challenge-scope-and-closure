@@ -25,7 +25,7 @@ There are layers upon layers of nested functions within the game of baseball. Yo
 
 ## Instructions
 
-### Task 1 - Set Up Project and Tests
+### Task 1 - Set Up Project and Tests - DONE
 
 1. Fork the repo
 2. Clone your forked version of the repo
@@ -43,6 +43,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+There are two types of scope in javascript, Global Vs. Local. Global scope refers to the variables that can be accessed outside and inside the function; i.e. hoisting.  Local scope refers to the variables that are accessible inside the function only. 
+
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +66,14 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? How can you tell? 
+
+personalDice(name) being the variable is where the example of closure would be seen. This can be known as the "const" variables are outside of the  function to generate a random number to accomplish the roll of the dice. 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
 c. What is the lexical scope of `newRoll`? 
+As `newRoll`
 
 
 ### Task 3 - Stretch Goals
